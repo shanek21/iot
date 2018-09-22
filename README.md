@@ -38,6 +38,7 @@ $ ./build/iot
 ## Dependencies
 
 * [Paho MQTT C](https://github.com/eclipse/paho.mqtt.c): `external/paho.mqtt.c`
+* [Paho MQTT C++](https://github.com/eclipse/paho.mqtt.cpp): `external/paho.mqtt.cpp`
 
 ## References
 
