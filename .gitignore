@@ -1,2 +1,5 @@
+# build directory
+build
+
 # Vim swap files
 *.swp
