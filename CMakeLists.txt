@@ -52,6 +52,8 @@ add_dependencies(paho.mqtt.cpp project_paho.mqtt.cpp)
 
 ####################################################################################################
 
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
 file(GLOB SOURCES "src/*.cpp") # define source files, to be referenced later as ${SOURCES}
 add_executable(iot ${SOURCES}) # create project executable
 
