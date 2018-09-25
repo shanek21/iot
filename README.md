@@ -16,6 +16,12 @@ This project aims to simplify the process of connecting remote sensors, a centra
 $ sudo apt install cmake
 ```
 
+#### Install Mosquitto
+
+```bash
+$ sudo apt install mosquitto mosquitto-client
+```
+
 #### Populate all of the Git submodules
 
 ```bash
@@ -48,6 +54,11 @@ $ ./build/iot
 
 * [Introduction to CMake by Example](http://derekmolloy.ie/hello-world-introductions-to-cmake/#Example_3_Building_a_Shared_Library_so)
 * [CMake by Example](https://mirkokiefer.com/cmake-by-example-f95eb47d45b1)
+
+### Mosquitto
+
+* [Installing and Testing Mosquitto MQTT on the Raspberry Pi](http://www.switchdoc.com/2016/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/)
+* [Configuring MQTT on the Raspberry Pi](http://www.switchdoc.com/2016/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/)
 
 ### MQTT
 
